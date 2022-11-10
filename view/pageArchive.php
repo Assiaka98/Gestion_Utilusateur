@@ -39,8 +39,8 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
     <title>Document</title>
 </head>
 <body><center>
-    <div class="porteph"> </div>
-    <div class="logo"><img class="logo"src="../img/pr9.webp" alt=""> </div>
+
+   
     <a href="essai1.php"><div class="listACT">L.Active </div></a>
     <div class="listACH">L.Archivé </div>
     

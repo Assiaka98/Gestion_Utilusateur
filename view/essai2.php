@@ -84,21 +84,20 @@ $matricule = date('  his-- A', time()).'-GZL';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="essai.css">
     <title>Document</title>
 </head>
 
 <body>
+    <div class="container-fluid">
     <div class="page-connection-3 screen">
     <div class="desktop-8"> </div>
     <div class="overlap-group">
-        <img class="rectangle-1" src="../img/iconere.jpeg" alt="Rectangle-1">
-        <div class="rectangle-3"></div>
-        <img class="rectangle-2" src="../img/pr9.webp" alt="Rectangle-2">
-        <h1 class="title ibmplexsans-blod-black-32px">Formulaire d'inscription</h1>
+
         <div class="CI_Nom">
             <form action="" method="post" id="myform" enctype="multipart/form-data">
             <input type="text" name="Nom" id="nom">
@@ -159,16 +158,8 @@ $matricule = date('  his-- A', time()).'-GZL';
         </form>
     </div>
     </div>
+    </div>
 </body>
 <script src="../executable/pj.js"></script>
-<script > 
-function getfile(){
-    document.getElementById('photo').click();
-    var matam =document.getElementById('photo').value
-    document.getElementById('photo1').innerHTML = matam;
-    
-}
 
-
-</script>
 </html>

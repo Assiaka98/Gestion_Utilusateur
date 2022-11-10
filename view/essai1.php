@@ -60,22 +60,33 @@ error_reporting(E_ALL & ~E_DEPRECATED);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="essai.css">
-    <title>Document</title>
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="stylesiaka.css">
+  <title>Document</title>
 </head>
 <body>
-    <div class="page-connection-3 screen">
-    <div class="desktop-8"> </div>
-    <div class="overlap-group">
-        <img class="rectangle-1" src="../img/iconere.jpeg" alt="Rectangle-1">
-        <div class="rectangle-31"></div>
-        <img class="rectangle-2" src="../img/pr9.webp" alt="Rectangle-2">
-        <h1 class="title ibmplexsans-blod-black-32px">Formulaire de connection</h1>
+  
+
+<div class="container-fluid ">
+        <div class="row">
+          <header class="col-md-12 hautDePage">
+          </header>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        
+        <section class="col-md-12 bordureBleue">
+        
         <form action="" method="post" id="myform">
+           
         <div class="rectangle-7">
+            <div class="email ibmplexsans-bold-black-20px">Email *</div><br>
             <input type="email" name="Email" id="Email">
         </div>
         <div id="messagerC3"></div>
@@ -84,18 +95,65 @@ error_reporting(E_ALL & ~E_DEPRECATED);
 		<div class="messagerr3"><?php echo $message ?></div>
 		<?php } ?>
         
+        
+        <div class="mot-de-passe ibmplexsans-bold-black-20px">Mot de passe </div><br>
+        <div class="glass"></div>
         <div class="rectangle-9">
             <input type="password" name="Pass" id="Password">
         </div>
-        <div class="email ibmplexsans-bold-black-20px">Email</div>
-        <div class="mot-de-passe ibmplexsans-bold-black-20px">Mot de passe</div>
-        <div class="glass"></div>
-        <!-- <div ></div> -->
-        <input class="se-connecter ibmplexsans-bold-black-32px" type="submit"  name="submit" value="Seconnecter">
-         <a href="../view/essai2.php"><div class="connecter">S'inscrire</div></a>
+        
+        
+        <button type="submit" class="btn btn-secondary btn-lg bit" name="submit">Connexion</button><br>
+
+        
+        <a href="../view/essai2.php"><div class="connecter">S'inscrire</div></a>
+<!--
+        <input class="se-connecter ibmplexsans-bold-black-32px" type="submit"  name="submit" value="Seconnecter"><br>-->
+         
         </form>
+           
+        </section>
+        
+      </div>
     </div>
-    </div>
+    <div class="container-fluid">
+    <div class="row">
+        <footer class="col-md-12 PiedDePge">
+        </footer>
+      </div>
+    </div> 
+
 </body>
 <script src="../executable/pc.js"></script>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

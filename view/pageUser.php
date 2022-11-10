@@ -35,8 +35,7 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
     <title>Document</title>
 </head>
 <body><center>
-    <div class="porteph"> </div>
-    <div class="logo"><img class="logo"src="../img/pr9.webp" alt=""> </div>
+   
 <!--     <div class="listACT">L.Active </div>
     <div class="listACH">L.Archivé </div> -->
     <div class="modifphoto"> <input type="file" name="mdph" class="mdp"></div>

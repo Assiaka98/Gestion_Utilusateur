@@ -75,10 +75,10 @@ if(isset($valider) ){
     <div class="page-connection-3 screen">
     <div class="desktop-8"> </div>
     <div class="overlap-group">
-        <img class="rectangle-1" src="../img/iconere.jpeg" alt="Rectangle-1">
-        <div class="rectangle-32"></div>
-        <img class="rectangle-2" src="../img/pr9.webp" alt="Rectangle-2">
-        <h1 class="title ibmplexsans-blod-black-32px">Formulaire de modification</h1>
+
+        
+
+
         <div class="CI_Nom">
             <form action="" method="post" id="myform">
             <input type="text" name="Nom" id="nom"  value="<?= $person->nom; ?>">

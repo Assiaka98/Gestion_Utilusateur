@@ -8,8 +8,7 @@
     gap: 4389px;
     overflow: hidden;
     width: 100%;
-    
-    
+
 }
 .hidden,
 .hidden *{
@@ -18,11 +17,13 @@
 
 }
 .overlap-group {
-    height: 1000px;
+    height: 700px;
     margin-top: 1px;
     position: relative;
-    width: 100%;
-    margin-left: -240px;
+    width: 70%;
+    margin-left: 240px;
+    margin-right: 800px;
+    margin-bottom: 50%;
 }
 .mot-de-passe {
     left: 370px;
@@ -227,7 +228,7 @@
 
 }
 .inscription {
-    color: #F79C17;
+    color: #636E72;
     font-family: IBM Plex Sans ;
     font-size: 24px;
     left: 323px;
@@ -240,7 +241,7 @@
 
 }
 .connecter {
-    color: #F79C17;
+    color: #636E72;
     font-family: IBM Plex Sans ;
     font-size: 24px;
     left: 323px;
@@ -253,7 +254,7 @@
 
 }
 .connecter3 {
-    color: #F79C17;
+    color: #636E72;
     font-family: IBM Plex Sans ;
     font-size: 24px;
     left: 323px;
@@ -266,7 +267,7 @@
 
 }
 .connecter1 {
-    color: #F79C17;
+    color: #636E72;
     font-family: IBM Plex Sans ;
     font-size: 24px;
     left: 323px;
@@ -298,7 +299,7 @@
     position: absolute;
     text-align: center;
     top: 723px;
-    background-color: #F79C17;
+    background-color: #636E72;
     height: 64px;
     left: 500px;
 
@@ -314,7 +315,7 @@
     position: absolute;
     text-align: center;
     top: 835px;
-    background-color: #F79C17;
+    background-color: #636E72;
     height: 55px;
     left: 310px;
 
@@ -330,7 +331,7 @@
     position: absolute;
     text-align: center;
     top: 650px;
-    background-color: #F79C17;
+    background-color: #636E72;
     height: 55px;
     left: 310px;
 

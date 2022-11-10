@@ -1,0 +1,29 @@
+body{background: #F7FAFC;}
+
+.hautDePage{ background: #636E72; min-height: 70px;  }
+.PiedDePge{ background: #636E72; min-height: 70px; }
+.bordureBleue{padding: 10px; background-color:#ffffff; box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);margin-top: 10px; margin-bottom: 10px; border-radius: 15px; min-height: 500px;}
+.bordureJaune{ padding: 10px; }
+.titreTableau{background: #636E72;text-align: center; }
+table{margin-left: 20%;margin-top: 5%;}
+.erreure{ color: red; }
+.erreur{color: red;}
+
+.formGauche{width: 49%; float: left;}
+.formDroite{width: 49%; float: right;}
+.bit{margin-top: 2%;}
+.inscrip{margin-top: 12%;}
+
+.conect{
+  margin-top: 10%;
+  margin-left: 25%;
+  text-align: center;
+}
+.profil{float: left; width: 80%; margin-top: 15px;}
+.decon{float:  right; margin-left: 95%; width: 10%;}
+
+
+.nombre{margin-left: 20%; margin-top: 20px;}
+
+.active{color: black;}
+
