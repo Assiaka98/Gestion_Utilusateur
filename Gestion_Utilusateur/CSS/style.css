@@ -1,0 +1,65 @@
+body{background: #F7FAFC;}
+h1{text-align: center;margin-top: 1px;}
+.hautDePage{ 
+  background: #636E72; 
+  min-height: 70px;  
+  
+  color: #ffffff;
+  padding-top: 2px;
+}
+.PiedDePge{ background: #636E72;
+   min-height: 70px;
+   margin-top: 2px; }
+.centre{
+  padding: 10px; 
+  background-color:#ffffff; 
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+  border-radius: 15px; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  
+  min-height: 500px;}
+  .conect{
+    margin-top: 5%;
+    margin-left: 25%;
+    text-align: center;
+  }
+
+.messagerr3{color: red;}
+.formGauche{width: 49%; float: left;}
+.formDroite{width: 49%; float: right;}
+
+.Sinscrire{margin-left: 3.5%; margin-top: 2%;}
+.Seconnecter{margin-left: 3%; margin-top: 2%;}
+.lien{text-align: center; margin-top: 1%;}
+.Seconnecter{text-align: center;}
+#messagerI1 {color: red;}
+#messagerI2{color: red;}
+#messagerI3{color: red;}
+#messagerI4{color: red;}
+#messagerI5{color: red;}
+#messagerI6{color: red;}
+.tr1table{margin-left: 2%;}
+table{border: 1px solid black;min-width: 70%;margin-left: 15%;margin-right: 15%; margin-top: 7%;}
+.trtable{background-color: #636E72;}
+.trtable{ text-align: center;}
+.tr1table{border: 1px solid black;}
+td{border: 1px solid black;}
+
+.deconect{ float: right;width: 10%;margin-top: 2%;margin-left: 2%; color: #ffffff;}
+.profil{float: left; width: 20%; margin-left: 2%;}
+
+.mesafaleches{ text-align: center; margin-top: 5px; }
+
+
+
+.rechercheUtilisa{float: right; margin-left: 65%;}
+
+.messagerr4{text-align: center; color: red; 
+  border-radius: 5px; 
+  background-color: rgb(240, 195, 195);
+  width: 30%;height: 10%;
+  padding-top: 1%;
+  margin-left: 35%;
+  margin-top: 12px;
+}
